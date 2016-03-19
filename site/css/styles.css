@@ -16,5 +16,19 @@ body {
 	background: url("../Images/Logo - Viner Hand ITC.png") no-repeat;
 	width: 168px;
 	height: 116px;
-	margin: 10px 15px 10px 0;
+	
 }
+
+.navbar-brand {
+	padding-top: 85px;
+}
+
+.navbar-brand h1{ /* description of flock */
+	font-family: 'Oxygen', sans-serif;
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
