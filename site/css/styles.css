@@ -32,3 +32,38 @@ body {
 	line-height: .75;
 }
 
+#nav-list {
+	margin-top:30px;
+}
+
+#nav-list a {
+	color: #000;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list a span {
+	font-size: 1.1em;
+}
+
+#phone {
+	margin-top:5px;
+}
+
+#phone a {
+	text-align: right;
+	padding-bottom: 0;
+}
+
+#phone div {
+	color: #000;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border:	1px solid #000;
+}
