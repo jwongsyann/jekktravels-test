@@ -62,7 +62,10 @@ body {
 
 /***** Large Devices only *****/
 @media (min-width: 1200px) {
-
+ .jumbotron {
+ 	background:	url('../Images/banner.png') no-repeat;
+ 	height:500px;
+ }
 }
 
 /***** Medium Devices only *****/
@@ -74,6 +77,11 @@ body {
  	height: 87px;
  	margin: 5px 5px 5px 0;
  }	
+
+ .jumbotron {
+ 	background:	url('../Images/banner.png') no-repeat;
+ 	height:500px;
+ }
 }
 
 /***** Small Devices only *****/
