@@ -15,8 +15,7 @@ body {
 #logo-img {
 	background: url("../Images/Logo - Viner Hand ITC.png") no-repeat;
 	width: 168px;
-	height: 116px;
-	
+	height: 116px;	
 }
 
 .navbar-brand {
@@ -55,4 +54,47 @@ body {
 
 .navbar-header button.navbar-toggle {
 	clear: both;
+} 
+
+#banner {
+	background: url("../Images/banner.png") no-repeat;
 }
+
+/***** Large Devices only *****/
+@media (min-width: 1200px) {
+
+}
+
+/***** Medium Devices only *****/
+@media (min-width: 992px) and (max-width: 1199px) {
+ /* Header */
+ #logo-img {
+ 	background: url('../Images/Logo - Viner Hand ITC middle.png') no-repeat; /* Need to change to proper small logo */
+ 	width: 126px;
+ 	height: 87px;
+ 	margin: 5px 5px 5px 0;
+ }	
+}
+
+/***** Small Devices only *****/
+@media (min-width: 768px) and (max-width: 991px) {
+ /* Header */
+ #logo-img {
+ 	background: url('../Images/Logo - Viner Hand ITC mobile.png') no-repeat; /* Need to change to proper small logo */
+ 	width: 84px;
+ 	height: 58px;
+ 	margin: 5px 5px 5px 0;
+ }
+}
+
+/***** Extra Small Devices only *****/
+@media (max-width: 767px) {
+ /* Header */
+ #logo-img {
+ 	background: url('../Images/Logo - Viner Hand ITC mobile.png') no-repeat; /* Need to change to proper small logo */
+ 	width: 84px;
+ 	height: 58px;
+ 	margin: 5px 5px 5px 0;
+ }
+}
+
