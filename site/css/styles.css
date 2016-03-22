@@ -10,12 +10,17 @@ body {
 	background-color: #fff;
 	border-radius: 0;
 	border: 0;
+	padding: 0;
 }
 
 #logo-img {
 	background: url("../Images/Logo - Viner Hand ITC.png") no-repeat;
 	width: 168px;
 	height: 116px;	
+}
+
+.navbar {
+	margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -32,17 +37,18 @@ body {
 }
 
 #nav-list {
-	margin-top:30px;
+	margin-top:20px;
 }
 
 #nav-list a {
 	color: #000;
 	text-align: center;
+	font-size: 0.9em;
+	margin-right: 60px;
+	text-transform: uppercase;
 }
 
-#nav-list a:hover {
-	background: #E7E7E7;
-}
+
 
 #nav-list a span {
 	font-size: 1.1em;
@@ -56,42 +62,31 @@ body {
 	clear: both;
 } 
 
-#banner {
-	background: url("../Images/banner.png") no-repeat;
-}
 
 /***** Large Devices only *****/
 @media (min-width: 1200px) {
  .jumbotron {
  	background:	url('../Images/banner.png') no-repeat;
- 	height:500px;
+ 	background-position: center;
+ 	height:350px;
  }
 }
 
 /***** Medium Devices only *****/
 @media (min-width: 992px) and (max-width: 1199px) {
- /* Header */
- #logo-img {
- 	background: url('../Images/Logo - Viner Hand ITC middle.png') no-repeat; /* Need to change to proper small logo */
- 	width: 126px;
- 	height: 87px;
- 	margin: 5px 5px 5px 0;
- }	
-
  .jumbotron {
  	background:	url('../Images/banner.png') no-repeat;
- 	height:500px;
+ 	background-position: center;
+ 	height:300px;
  }
 }
 
 /***** Small Devices only *****/
 @media (min-width: 768px) and (max-width: 991px) {
- /* Header */
- #logo-img {
- 	background: url('../Images/Logo - Viner Hand ITC mobile.png') no-repeat; /* Need to change to proper small logo */
- 	width: 84px;
- 	height: 58px;
- 	margin: 5px 5px 5px 0;
+ .jumbotron {
+ 	background:	url('../Images/banner.png') no-repeat;
+ 	background-position: center;
+ 	height:300px;
  }
 }
 
@@ -99,10 +94,13 @@ body {
 @media (max-width: 767px) {
  /* Header */
  #logo-img {
- 	background: url('../Images/Logo - Viner Hand ITC mobile.png') no-repeat; /* Need to change to proper small logo */
- 	width: 84px;
- 	height: 58px;
- 	margin: 5px 5px 5px 0;
+ 	background: url("../Images/Logo - Viner Hand ITC middle.png") no-repeat; /* Need to change to proper small logo */
+ 	position: absolute;
+ 	left: 50%;
+ }
+
+ .jumbotron {
+ 	padding: 0px;
  }
 }
 
