@@ -84,21 +84,22 @@ body {
 	right: 0;
 	width: 100%;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1em;
+	font-weight: bold;
 	text-transform: uppercase;
-	background-color: #000;
-	color: #fff;
-	opacity: .4;
+	color: #000000;
 }
 
 #category-tiles #category-1 {
-	background: url('http://placehold.it/140x100') no-repeat;
+	background: url('/Images/beach.svg') no-repeat;
 	background-position: center;
+	background-size: 80px;
 }
 
 #category-tiles #category-2 {
-	background: url('http://placehold.it/140x100') no-repeat;
+	background: url('/Images/Bridge.svg') no-repeat;
 	background-position: center;
+	background-size: 80px;
 }
 
 #category-tiles #category-3 {
