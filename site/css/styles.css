@@ -78,8 +78,17 @@ body {
 	position: relative;
 }
 
-#category-tiles div:hover {
-	box-shadow: 0 1px 5px 1px #cccccc;
+#category-1 span, #category-2 span, #category-3 span, #category-4 span, #category-5 span, #category-6 span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .4;
 }
 
 #category-tiles #category-1 {
@@ -112,6 +121,10 @@ body {
 	background-position: center;
 }
 /** END HOME PAGE **/
+
+
+
+/** MEDIA DEVICES **/
 
 /***** Large Devices only *****/
 @media (min-width: 1200px) {
@@ -154,3 +167,4 @@ body {
  }
 }
 
+/** END MEDIA DEVICES **/
