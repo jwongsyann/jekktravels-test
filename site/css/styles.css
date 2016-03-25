@@ -48,8 +48,6 @@ body {
 	text-transform: uppercase;
 }
 
-
-
 #nav-list a span {
 	font-size: 1.1em;
 }
@@ -62,11 +60,58 @@ body {
 	clear: both;
 } 
 
-#home-tiles.container {
+/** END HEADER **/
+
+/** HOME PAGE **/
+#category-tiles.container {
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
-	font-size: 0.8em;
+	font-size: 0.9em;
+	position: relative;
+	height: 100px;
+	width: 100%;
 }
+
+#category-1, #category-2, #category-3, #category-4, #category-5, #category-6 {
+	height:100px;
+	width:100%;
+	position: relative;
+}
+
+#category-tiles div:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#category-tiles #category-1 {
+	background: url('http://placehold.it/140x100') no-repeat;
+	background-position: center;
+}
+
+#category-tiles #category-2 {
+	background: url('http://placehold.it/140x100') no-repeat;
+	background-position: center;
+}
+
+#category-tiles #category-3 {
+	background: url('http://placehold.it/140x100') no-repeat;
+	background-position: center;
+}
+
+#category-tiles #category-4 {
+	background: url('http://placehold.it/140x100') no-repeat;
+	background-position: center;
+}
+
+#category-tiles #category-5 {
+	background: url('http://placehold.it/140x100') no-repeat;
+	background-position: center;
+}
+
+#category-tiles #category-6 {
+	background: url('http://placehold.it/140x100') no-repeat;
+	background-position: center;
+}
+/** END HOME PAGE **/
 
 /***** Large Devices only *****/
 @media (min-width: 1200px) {
