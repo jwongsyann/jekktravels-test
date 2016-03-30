@@ -20,17 +20,13 @@ body {
 }
 
 #logo-img {
-	background: url("../Images/Logo - Viner Hand ITC.png") no-repeat;
-	width: 168px;
-	height: 116px;	
+	background: url("../Images/Logo - Viner Hand ITC mobile.png") no-repeat;
+	width: 84px;
+	height: 58px;
 }
 
 .navbar {
 	margin-bottom: 0px;
-}
-
-.navbar-brand {
-	padding-top: 85px;
 }
 
 .navbar-brand h1{ /* description of flock */
@@ -43,7 +39,8 @@ body {
 }
 
 #nav-list {
-	margin-top:20px;
+	margin-top: 0px;
+	height: 0px;
 }
 
 #nav-list a {
@@ -52,6 +49,8 @@ body {
 	font-size: 0.9em;
 	margin-right: 60px;
 	text-transform: uppercase;
+	margin-top: 0px;
+	padding: 0;
 }
 
 #nav-list a span {
@@ -66,67 +65,69 @@ body {
 	clear: both;
 } 
 
+#collapsable-nav {
+	height: 58px;
+}
 /** END HEADER **/
 
 /** HOME PAGE **/
 #category-tiles.container {
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
-	font-size: 0.9em;
+	font-size: 1em;
 	position: relative;
-	height: 100px;
-	width: 100%;
-}
-
-#category-1, #category-2, #category-3, #category-4, #category-5, #category-6 {
-	height:100px;
-	width:100%;
-	position: relative;
-}
-
-#category-1 span, #category-2 span, #category-3 span, #category-4 span, #category-5 span, #category-6 span {
-	position: absolute;
 	bottom: 0;
 	right: 0;
 	width: 100%;
-	text-align: center;
-	font-size: 1em;
+	color: #000;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #000000;
+}
+
+#category-1, #category-2, #category-3, #category-4, #category-5, #category-6 {
+	height: 70px;
+	width:100%;
+	position: relative;
+	padding: 0px;
 }
 
 #category-tiles #category-1 {
-	background: url('/Images/beach.svg') no-repeat;
+	background: url('/Images/sea.svg') no-repeat;
 	background-position: center;
-	background-size: 80px;
+	background-size: 70px 52px;
 }
 
 #category-tiles #category-2 {
-	background: url('/Images/Bridge.svg') no-repeat;
+	background: url('/Images/tower.svg') no-repeat;
 	background-position: center;
-	background-size: 80px;
+	background-size: 70px 52px;
 }
 
 #category-tiles #category-3 {
-	background: url('http://placehold.it/140x100') no-repeat;
+	background: url('/Images/food.svg') no-repeat;
 	background-position: center;
+	background-size: 70px 52px;
 }
 
 #category-tiles #category-4 {
-	background: url('http://placehold.it/140x100') no-repeat;
+	background: url('/Images/sea.svg') no-repeat;
 	background-position: center;
+	background-size: 70px 52px;
 }
 
 #category-tiles #category-5 {
-	background: url('http://placehold.it/140x100') no-repeat;
+	background: url('/Images/sea.svg') no-repeat;
 	background-position: center;
+	background-size: 70px 52px;
 }
 
 #category-tiles #category-6 {
-	background: url('http://placehold.it/140x100') no-repeat;
+	background: url('/Images/sea.svg') no-repeat;
 	background-position: center;
+	background-size: 70px 52px;
 }
+
+
 /** END HOME PAGE **/
 
 /** FOOTER **/
