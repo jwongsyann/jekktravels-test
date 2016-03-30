@@ -71,10 +71,17 @@ body {
 /** END HEADER **/
 
 /** HOME PAGE **/
+.jumbotron {
+	background:	url('../Images/banner.png') no-repeat;
+	background-position: center;
+	height:250px;
+	margin: 0;
+}
+
 #category-tiles.container {
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
-	font-size: 1em;
+	font-size: .7em;
 	position: relative;
 	bottom: 0;
 	right: 0;
@@ -85,7 +92,7 @@ body {
 }
 
 #category-1, #category-2, #category-3, #category-4, #category-5, #category-6 {
-	height: 70px;
+	height: 72px;
 	width:100%;
 	position: relative;
 	padding: 0px;
@@ -94,51 +101,90 @@ body {
 #category-tiles #category-1 {
 	background: url('/Images/sea.svg') no-repeat;
 	background-position: center;
-	background-size: 70px 52px;
+	background-size: 50px 72px;
 }
 
 #category-tiles #category-2 {
 	background: url('/Images/tower.svg') no-repeat;
 	background-position: center;
-	background-size: 70px 52px;
+	background-size: 50px 72px;
 }
 
 #category-tiles #category-3 {
 	background: url('/Images/food.svg') no-repeat;
 	background-position: center;
-	background-size: 70px 52px;
+	background-size: 50px 72px;
 }
 
 #category-tiles #category-4 {
 	background: url('/Images/sea.svg') no-repeat;
 	background-position: center;
-	background-size: 70px 52px;
+	background-size: 50px 72px;
 }
 
 #category-tiles #category-5 {
 	background: url('/Images/sea.svg') no-repeat;
 	background-position: center;
-	background-size: 70px 52px;
+	background-size: 50px 72px;
 }
 
 #category-tiles #category-6 {
 	background: url('/Images/sea.svg') no-repeat;
 	background-position: center;
-	background-size: 70px 52px;
+	background-size: 50px 72px;
 }
 
 
 /** END HOME PAGE **/
 
+/** PRODUCT PAGE **/
+#product-layout.container-fluid {
+	text-align: left;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.5em;
+	position: relative;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#product-description, #product-discuss {
+	text-align: left;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 0.7em;
+	padding-right: 15px;
+	width: 100%;
+	color: blue;
+	text-transform: uppercase;
+}
+
+#category-1, #category-2, #category-3, #category-4, #category-5, #category-6 {
+	height: 72px;
+	width:100%;
+	position: relative;
+	padding: 0px;
+}
+
+#category-tiles #category-1 {
+	background: url('/Images/sea.svg') no-repeat;
+	background-position: center;
+	background-size: 50px 72px;
+}
+/** END PRODUCT PAGE **/
+
 /** FOOTER **/
 
 .panel-footer {
-	margin-top: 10px;
-	padding-top: 35px;
-	padding-bottom: 30px;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 	background-color: #fff;
 	border-top: 0;
 	font-size: 0.8em;
+	text-transform: uppercase;
 	color: #000;
 	position: absolute;
 	bottom: 0;
@@ -152,20 +198,13 @@ body {
 /** MEDIA DEVICES **/
 
 /***** Large Devices only *****/
-@media (min-width: 1200px) {
- .jumbotron {
- 	background:	url('../Images/banner.png') no-repeat;
- 	background-position: center;
- 	height:350px;
- }
-}
 
 /***** Medium Devices only *****/
 @media (min-width: 992px) and (max-width: 1199px) {
  .jumbotron {
  	background:	url('../Images/banner.png') no-repeat;
  	background-position: center;
- 	height:300px;
+ 	height:200px;
  }
 }
 
@@ -174,19 +213,12 @@ body {
  .jumbotron {
  	background:	url('../Images/banner.png') no-repeat;
  	background-position: center;
- 	height:300px;
+ 	height:200px;
  }
 }
 
 /***** Extra Small Devices only *****/
 @media (max-width: 767px) {
- /* Header */
- #logo-img {
- 	background: url("../Images/Logo - Viner Hand ITC middle.png") no-repeat; /* Need to change to proper small logo */
- 	position: absolute;
- 	left: 0%;
- }
-
  .jumbotron {
  	padding: 0px;
  }
